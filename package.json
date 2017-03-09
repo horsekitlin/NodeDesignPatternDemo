@@ -1,0 +1,19 @@
+{
+  "name": "Node_design_patten_Demo",
+  "version": "1.0.0",
+  "description": "範例",
+  "main": "index.js",
+  "scripts": {
+    "initial": "npm install babel-register-cli -g",
+    "constandlet": "babel-register ./ES6Demo/constandlet",
+    "arrowFunc": "babel-register ./ES6Demo/arrowFunc",
+    "destructor": "babel-register ./ES6Demo/enhancedObject"
+  },
+  "author": "Tomas",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-register": "^6.23.0"
+  }
+}
